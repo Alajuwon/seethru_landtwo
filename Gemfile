@@ -7,7 +7,7 @@ end
 
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', group: :development
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -36,6 +36,11 @@ gem 'geocoder'   #for coordinates(automatic look-up)
 
 gem 'better_errors' , group: :development
 
+#for Heroku:
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
