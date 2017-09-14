@@ -16,3 +16,14 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
+
+
+  $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 100) {
+                $('#navey-nav').fadeIn(500);
+            } else {
+                $('#navey-nav').fadeOut(500);
+            }
+        });
+    });

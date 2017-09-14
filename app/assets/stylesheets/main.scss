@@ -28,22 +28,25 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other*/ 
+    margin-bottom: -465px;
 
 }
 
 .comp-name{
-		color: cyan;
+		color: white;
     letter-spacing: 10px;
     margin-top: 215px;
     font-size: 9vw;
     font-family: sans-serif;
     font-weight: 100;
     letter-spacing: 30px;
+    text-align: center;
+    text-shadow: 8px 0px 18px ghostwhite;
 }
 
 .comp-phrase{
 		color: white;
-    text-align: start;
+    text-align: center;
     font-size: 3vw;
     font-weight: 200;
     font-style: italic;
@@ -157,11 +160,6 @@
 
 
 
-
-
-
-
-
 .session{
 	color: #004bc4;
 	text-align: center;
@@ -176,10 +174,6 @@
 	border-radius: 0px;
 
 }
-
-
-
-
 
 
 

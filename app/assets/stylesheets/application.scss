@@ -24,12 +24,13 @@ body{
 	background-color: #eee;
 }
 
-.navbar-default {
-   background-color: transparent;
+#navey-nav {
+   background-color: #004bc4;
    border: none;
    margin-bottom: -50px;
    color: white;
    position: fixed;
+   display: none;
 }
 
 
@@ -37,3 +38,21 @@ body{
 	color: white;
 	
 }
+
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #004bc4;	
+	color: white;
+	margin-top: 50px;
+}
+
+
+#copy{
+	margin-top: 40px;
+	text-align: center;
+}
+
+

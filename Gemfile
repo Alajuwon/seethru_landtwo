@@ -36,6 +36,7 @@ gem 'geocoder'   #for coordinates(automatic look-up)
 
 gem 'better_errors' , group: :development
 
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
