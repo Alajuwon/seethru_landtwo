@@ -1,3 +1,189 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#main-top{
+	height: 500px;
+	width: 100%;
+	max-width: 100%;
+	background-image: url(image-path('seethruglasses3.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100% 100%;
+	padding: 0px;
+}
+
+
+#overlay1{
+    position: static; /* Sit on top of the page content */
+    /*display: none;  Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 500px; /* Full height (cover the whole page) */
+    top: 450px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other*/ 
+
+}
+
+.comp-name{
+		color: cyan;
+    letter-spacing: 10px;
+    margin-top: 215px;
+    font-size: 9vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 30px;
+}
+
+.comp-phrase{
+		color: white;
+    text-align: start;
+    font-size: 3vw;
+    font-weight: 200;
+    font-style: italic;
+}
+	
+.company{
+	text-align: center;
+	font-size: 3vw;
+	color: #004bc4;
+	margin-top: 100px;
+}
+
+
+.underline{
+	height: 1px;
+	width: 80%;
+	border: solid 1px #ddd;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+.description1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 60px;
+
+}
+
+.description2{
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+.description{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+.address{
+	text-align: center;
+	color: #004bc4;
+}
+
+
+#overlay{
+    position: static; /* Sit on top of the page content */
+    /*display: none;  Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 300px; /* Full height (cover the whole page) */
+    top: 450px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other*/ 
+
+}
+
+.section{
+	margin-top: 50px;
+	height: 300px;
+	width: 100%;
+	background-image: url(image-path('team2.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100% 100%;
+
+}
+
+.task1{
+		color: white;
+    position: absolute;
+    top: -6em;
+    left: 9em;
+    letter-spacing: 12px;
+}
+
+.skill{
+	color: #004bc4;
+
+	text-align: center;
+}
+
+
+.section2{
+	margin-top: 50px;
+	height: 300px;
+	width: 100%;
+	background-image: url(image-path('howitworks.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100% 100%;
+
+}
+
+
+.task2{
+	color: white;
+    position: absolute;
+    top: 4em;
+    left: 8em;
+    letter-spacing: 12px;
+}
+
+
+
+
+
+
+
+
+.session{
+	color: #004bc4;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+#button{
+	background-color: #004bc4;
+	vertical-align: center;
+	margin-bottom: 60px;
+	border-radius: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

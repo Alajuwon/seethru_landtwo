@@ -18,3 +18,22 @@
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 @import "font-awesome";
+
+body{
+	height: 2500px;
+	background-color: #eee;
+}
+
+.navbar-default {
+   background-color: transparent;
+   border: none;
+   margin-bottom: -50px;
+   color: white;
+   position: fixed;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	
+}
