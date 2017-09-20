@@ -18,12 +18,23 @@
 
 
 
-  $(document).ready(function(){                    
-        $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 100) {
-                $('#navey-nav').fadeIn(500);
-            } else {
-                $('#navey-nav').fadeOut(500);
-            }
-        });
-    });
+ // $(document).ready(function(){                    
+   //     $(window).scroll(function(){                          
+     //       if ($(this).scrollTop() > 100) {
+       //         $('#navey-nav').fadeIn(500);
+         //   } else {
+           //     $('#navey-nav').fadeOut(500);
+        //    }
+       // });
+   // });
+
+
+
+
+var show = function(){
+    $('#seethru-popup').modal('show');
+};
+
+$(window).load(function(){
+    var timer = window.setTimeout(show,2000);
+});

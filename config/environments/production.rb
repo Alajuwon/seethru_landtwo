@@ -18,6 +18,18 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:     'smtp.gmail.com',
+    port:        587,
+    domain:      'gmail.com',
+    user_name:   "#{ENV['gmail_un']}@gmail.com",
+    password:     "#{ENV['gmail_pw']}",
+    # we want to use the Figaro gem to hide our UN & PW! 
+    authentication:  'plain',
+    enable_starttls_auto: true
+  }
+
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass

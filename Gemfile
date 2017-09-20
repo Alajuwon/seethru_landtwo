@@ -35,6 +35,7 @@ gem 'hirb'
 gem 'geocoder'   #for coordinates(automatic look-up)
 
 gem 'better_errors' , group: :development
+gem 'figaro'
 
 #for Heroku:
 group :production do
