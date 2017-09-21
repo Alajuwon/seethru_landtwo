@@ -1,10 +1,10 @@
 class UserMailer < ApplicationMailer
 
-	default from: 'notifications@example.com'
+	default from: 'seethru.healthcare'
  
   def welcome_email(user)
     @user = user
-    @url  = 'http://example.com/login'
+    @url  = 'http://seethru.healthcare/login'
     mail(to: @user.email, subject: 'Welcome to SeeThru')
   end
 end
