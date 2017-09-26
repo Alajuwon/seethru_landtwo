@@ -36,5 +36,5 @@ var show = function(){
 };
 
 $(window).load(function(){
-    var timer = window.setTimeout(show,2000);
+    var timer = window.setTimeout(show,5000);
 });
