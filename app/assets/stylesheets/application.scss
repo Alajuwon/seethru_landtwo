@@ -27,26 +27,20 @@ body{
 .navbar-default {
    background-color: #1A237E;
    border: none;
+
 }
 
-
-.navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-  }
-
-.navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
 
 .navbar-default .navbar-nav > li > a{
 	color: white;
 	
 }
 
+.navbar-default .navbar-nav > li > a:hover{
+	color: #03A9F4;
+
+	
+}
 
 
 footer{

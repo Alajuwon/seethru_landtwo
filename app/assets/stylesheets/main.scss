@@ -10,7 +10,6 @@
 	max-width: 100%;
 	background-image: url(image-path('seethruglasses3.jpg'));
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-position: center center;
 	background-size: 100% 100%;
 	padding: 0px;
@@ -37,11 +36,8 @@
     font-size: 9vw;
     font-family: sans-serif;
     font-weight: 100;
-    letter-spacing: 30px;
     text-align: center;
 }
-
-
 
 .comp-phrase{
 		color: white;
@@ -105,7 +101,7 @@
 	margin-top: 50px;
 	height: 300px;
 	width: 100%;
-	background-image: url(image-path('seethrumarket.jpg'));
+	background-image: url(image-path('howitworks.jpg'));
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
@@ -115,36 +111,14 @@
 
 .task1{
 		color: white;
-    position: absolute;
-    top: -6em;
-    left: 12em;
-    letter-spacing: 12px;
+		text-align: center;
+   	margin-top: -130px;
+    
 }
 
 .skill{
 	color: #1A237E;
 	text-align: center;
-}
-
-
-.section2{
-	margin-top: 50px;
-	height: 300px;
-	width: 100%;
-	background-image: url(image-path('howitworks.jpg'));
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;
-	background-size: 100% 100%;
-
-}
-
-
-.task2{
-		color: white;
-    position: absolute;
-    top: 4em;
-    left: 8em;
 }
 
 
@@ -155,6 +129,29 @@
 	margin-top: 50px;
 }
 
+
+
+.panel-over{
+	border: solid 1px #1A237E;
+	border-radius: 4px;
+}
+
+.heading-panel{
+	background-color: #1A237E;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	
+}
+
+.form-group{
+	margin-top: 15px;
+}
+
+#form-btn{
+	background-color: #1A237E;
+
+}
 
 #button{
 	background-color: #1A237E;
@@ -168,7 +165,6 @@
 
 .modal-title{
 	text-align: center;
-	letter-spacing: 5px;
 	color: #1A237E;
 }
 
