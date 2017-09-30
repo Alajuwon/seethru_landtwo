@@ -25,19 +25,22 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    background-color: rgba(0,0,0,0.3); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other*/ 
     margin-bottom: -465px;
 
 }
 
-.comp-name{
-    margin-top: 215px;
-    font-size: 9vw;
-    font-family: sans-serif;
-    font-weight: 100;
-    text-align: center;
+
+.logo-pic{
+	width: 70%;
+	height: auto;
+	margin-top: 200px;
+	text-align: center;
+	margin-left: 17%;
+
 }
+
 
 .comp-phrase{
 		color: white;
@@ -51,7 +54,7 @@
 	text-align: center;
 	font-size: 3vw;
 	color: #1A237E;
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 
@@ -112,7 +115,8 @@
 .task1{
 		color: white;
 		text-align: center;
-   	margin-top: -130px;
+   	margin-top: -190px;
+   	font-size: 5vw;
     
 }
 
@@ -133,14 +137,15 @@
 
 .panel-over{
 	border: solid 1px #1A237E;
-	border-radius: 4px;
+	border-radius: 3px;
 }
 
 .heading-panel{
 	background-color: #1A237E;
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
+	height: 45px;
 	
 }
 
@@ -176,10 +181,16 @@
 
 
 
+.panel-foot{
+	height: 150px;
+	background-color: #FAFAFA;
+}
 
+#movement{
+	text-align: center;
+	color: #1A237E;
 
-
-
+}
 
 
 
