@@ -52,9 +52,17 @@
 	
 .company{
 	text-align: center;
-	font-size: 3vw;
-	color: #1A237E;
+	font-size: 2vw;
+	color: #00AEED;
 	margin-top: 75px;
+}
+
+.subject-text{
+	text-align: center;
+	font-size: 2vw;
+	color: #004681;
+	margin-top: 75px;
+
 }
 
 
@@ -82,7 +90,7 @@
 
 .address{
 	text-align: center;
-	color: #1A237E;
+	color: #00AEED;
 }
 
 
@@ -104,7 +112,7 @@
 	margin-top: 50px;
 	height: 300px;
 	width: 100%;
-	background-image: url(image-path('howitworks.jpg'));
+	background-image: url(image-path('seethrumarket.jpg'));
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
@@ -121,7 +129,7 @@
 }
 
 .skill{
-	color: #1A237E;
+	color: #00AEED;
 	text-align: center;
 }
 
@@ -141,9 +149,9 @@
 }
 
 .heading-panel{
-	background-color: #1A237E;
+	background-color: #004681;
 	text-align: center;
-	font-size: 30px;
+	font-size: 27px;
 	color: white;
 	height: 45px;
 	
@@ -154,7 +162,9 @@
 }
 
 #form-btn{
-	background-color: #1A237E;
+	background-color: #004681;
+	margin-top: 15px;
+	border-radius: 0px;
 
 }
 
@@ -176,9 +186,13 @@
 
 .modal-phrase{
 	text-align: center;
-	color: #1A237E;
+	color: #4c4e4f;
+	font-size: 18px;
 }
 
+.modal-content{
+	height: 265px;
+}
 
 
 .panel-foot{
@@ -188,14 +202,19 @@
 
 #movement{
 	text-align: center;
-	color: #1A237E;
+	color: #004681;
 
 }
 
 
-
-
-
+.signup-section{
+	height: 500px;
+	width: 100%;
+	background-image: url(image-path('savemorepic2.jpg'));
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+}
 
 
 
