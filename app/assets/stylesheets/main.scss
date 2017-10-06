@@ -8,7 +8,7 @@
 	height: 500px;
 	width: 100%;
 	max-width: 100%;
-	background-image: url(image-path('seethruglasses3.jpg'));
+	background-image: url(image-path('iceshape.jpg'));
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
@@ -35,7 +35,7 @@
 .logo-pic{
 	width: 70%;
 	height: auto;
-	margin-top: 200px;
+	margin-top: 210px;
 	text-align: center;
 	margin-left: 17%;
 
@@ -141,11 +141,28 @@
 	margin-top: 50px;
 }
 
+.section3{
+	margin-top: 50px;
+	height: 300px;
+	width: 100%;
+	background-image: url(image-path('yoga.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100% 100%;
 
+}
+
+#contain3{
+	margin-top: -235px;
+	margin-bottom: 100px;
+
+}
 
 .panel-over{
 	border: solid 1px #1A237E;
 	border-radius: 0px;
+	
 }
 
 .heading-panel{
